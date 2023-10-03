@@ -68,13 +68,13 @@ btn.addEventListener("click", function (e) {
   alert("套票新增成功！");
 
   // 送出後清空資料
-  area.value = "";
-  description.value = "";
-  group.value = "";
-  imgUrl.value = "";
-  name.value = "";
-  price.value = "";
-  rate.value = "";
+  ticketRegion.value = "";
+  ticketDescription.value = "";
+  ticketNum.value = "";
+  ticketImgUrl.value = "";
+  ticketName.value = "";
+  ticketPrice.value = "";
+  ticketRate.value = "";
 });
 
 // 組織卡片內容
